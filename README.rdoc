@@ -1,6 +1,8 @@
 = tf-idf_csv
 
-Description goes here.
+This provides a simple executable which will read a CSV in the following format and then produce a CSV of each term's TF-IDF.
+
+For more detail about TF-IDF see http://en.wikipedia.org/wiki/Tf%E2%80%93idf
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +16,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Julian. See LICENSE for details.
+Copyright (c) 2010 Julian Burgess. See LICENSE for details.

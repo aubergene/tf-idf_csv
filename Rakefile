@@ -6,10 +6,9 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "tf-idf_csv"
     gem.summary = %Q{Calculate the TF-IDF for terms in a CSV file}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "aubergene@gmail.com"
+    gem.email = "jburgess@ap.org"
     gem.homepage = "http://github.com/aubergene/tf-idf_csv"
-    gem.authors = ["Julian"]
+    gem.authors = ["Julian Burgess"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
