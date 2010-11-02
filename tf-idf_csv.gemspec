@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tf-idf_csv}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Julian Burgess"]
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
+     "Gemfile",
      "LICENSE",
      "README.rdoc",
      "Rakefile",
@@ -29,7 +30,8 @@ Gem::Specification.new do |s|
      "sample-tf-idf.csv",
      "sample.csv",
      "test/helper.rb",
-     "test/test_tf-idf_csv.rb"
+     "test/test_tf-idf_csv.rb",
+     "tf-idf_csv.gemspec"
   ]
   s.homepage = %q{http://github.com/aubergene/tf-idf_csv}
   s.rdoc_options = ["--charset=UTF-8"]
