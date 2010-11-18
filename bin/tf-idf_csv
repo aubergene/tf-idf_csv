@@ -4,19 +4,17 @@ $LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
 require 'tf-idf_csv'
 require 'csv'
 
+tf_idf = Tf_Idf_CSV.new()
+
 begin
   csv_file = ARGV[0]
-  csv = CSV.open(csv_file)  
+  tf_idf.add_csv(csv_file)
 rescue
+  puts $!
   puts "Please specify a valid CSV file"
   Process.exit(1)
 end
 
-tf_idf = Tf_Idf_CSV.new()
-tf_idf.add_csv(csv)
-
-output_csv_file = csv_file.sub(/\.csv$/,'-tf-idf.csv')
-tf_idf.write(output_csv_file)
-
-
+output_csv_file = csv_file.sub(/\.csv$/,'-fast.csv')
+tf_idf.fast_write(output_csv_file)
 
