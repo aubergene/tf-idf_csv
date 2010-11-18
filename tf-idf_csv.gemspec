@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Julian Burgess"]
-  s.date = %q{2010-11-02}
+  s.date = %q{2010-11-18}
   s.default_executable = %q{tf-idf_csv}
   s.email = %q{jburgess@ap.org}
   s.executables = ["tf-idf_csv"]
@@ -27,8 +27,6 @@ Gem::Specification.new do |s|
      "VERSION",
      "bin/tf-idf_csv",
      "lib/tf-idf_csv.rb",
-     "sample-tf-idf.csv",
-     "sample.csv",
      "test/helper.rb",
      "test/test_tf-idf_csv.rb",
      "tf-idf_csv.gemspec"
